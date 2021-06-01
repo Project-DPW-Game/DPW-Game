@@ -1,0 +1,21 @@
+.button {
+  width: 70px;
+  height: 70px;
+  background-color: silver;
+  border: 2px solid black;
+  padding: 0 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+body {
+  text-align: center;
+}
+.back{
+  background-color: blanchedalmond;
+  border: 1px solid magenta;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
