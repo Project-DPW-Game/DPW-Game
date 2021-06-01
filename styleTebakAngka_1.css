@@ -1,0 +1,43 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 50px auto;
+    text-align: center;
+    background-image: url('gamestart.jpg');
+    background-size: cover;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+
+
+.back{
+    background-color: blanchedalmond;
+    border: 1px solid magenta;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.guessField{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    box-shadow: 0 0 3px black;
+    margin-bottom: 20px;
+}
+.title{
+    margin-bottom: 70px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px green;
+}
