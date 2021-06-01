@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bermain Tebak Angka dengan Menggunakan Javascript</title>
+    <link rel="stylesheet" type="text/css" href="styleTebakAngka.css">
+</head>
+
+<body>
+    <h1 class="title">Bermain Tebak Angka !!!</h1>
+    <p>Disini Akan teracak nomor kemudian di minta menjawabnya, di berikan 3x kesempatan jika tebakan angka terlalu <strong>tinggi atau rendah</strong> akan di beritahukan dan jika <strong>"Benar akan muncul pemberitahuannya juga tentunya."</strong></p>
+    <div class="form"> 
+        <label for="guessField">Masukan Nomor yang anda pilih <strong>1-10</strong>: </label>
+        <br>
+        <input type="text" id="guessField" class="guessField">
+        <br>
+        <input type="submit" value="Pilih" class="guessSubmit">
+    </div>
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHigh"></p>
+    </div> 
+    <script src="scriptTebakAngka.js"></script>
+    <div>
+        <a href="homeScreen.html"><button class="back">Kembali ke Home</button></a>
+    </div>
+</body>
+
+
+</html>
