@@ -1,17 +1,17 @@
+<!DOCTYPE html>
 <html>
-
 <head>
   <title>Tebak Angka</title>
 </head>
 <link rel="stylesheet" href="tombol.css">
 
 <body>
-  <div>
-    <p>ini adalah game tebak angka, anda mempunyai 3 kali kesempatan menebak</p>
-    <p>kolom akan berwarna merah jika salah</p>
-    <p>kolom akan berwrna hijau jika benar</p>
+  <div class="a">
+    <p>Ini adalah game tebak angka, anda mempunyai 3 kali kesempatan menebak</p>
+    <p>Kolom akan berwarna merah jika salah</p>
+    <p>Kolom akan berwrna hijau jika benar</p>
     <h1 id="menang"></h1>
-  </div>
+  </div><br>
   <div>
     <button class="button" onclick="a('button1')" id="button1">1</button>
     <button class="button" onclick="a('button2')" id="button2">2</button>
@@ -26,8 +26,8 @@
     <button class="button" onclick="a('button9')" id="button9">9</button>
   </div>
   <div style="padding-top:50px;">
-    <input type="button" value="Refresh" onClick="window.location.reload()" />
-    <button onclick="answer('jwbBenar')">Buka Jawaban</button>
+    <input type="button" value="Refresh" onClick="window.location.reload()" style="background-color: rgb(18, 194, 224);">
+    <button onclick="answer('jwbBenar')" style="background-color: rgb(18, 194, 224);">Buka Jawaban</button>
     <h4 id="jwbBenar"></h4>
   </div>
   <div>
