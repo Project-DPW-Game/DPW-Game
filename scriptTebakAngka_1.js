@@ -63,5 +63,5 @@ function resetGame() {
   guessField.value='';
   guessField.focus();
   lastResult.style.backgroundColor='white';
-  randomNumber=Math.floor(Math.random() * 10) + 1;
+  randomNumber=Math.floor(Math.random() * 10);
 }
