@@ -1,4 +1,4 @@
-var randomNumber = Math.floor(Math.random() * 10) + 1;
+var randomNumber = Math.floor(Math.random() * 10);
 var guesses = document.querySelector('.guesses');
 var lastResult = document.querySelector('.lastResult');
 var lowOrHigh = document.querySelector('.lowOrHigh');
